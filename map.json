@@ -37,7 +37,7 @@
                 {
                  "name":"exitURL",
                  "type":"string",
-                 "value":"Konferenzraum.json#start"
+                 "value":"Konferenzraum.json#floorLayer"
                 }],
          "type":"tilelayer",
          "visible":true,
