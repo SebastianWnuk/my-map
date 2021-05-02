@@ -36,9 +36,9 @@ top:0.5rem;
   text-align: center;
 }
 #d{
-  top: 780px;
-  left:5px;
-  width: 60%;
+  top: 520px;
+  right: 5px;
+  width: 40%;
 }
 html, body {
   height: 100%;
@@ -47,8 +47,7 @@ html, body {
   font-family: "Open Sans Light",X-LocaleSpecific-Light,"Open Sans",X-LocaleSpecific,sans-serif;
   line-height: 1.5;
   font-weight: normal;
-  font-size: 20px;
-  background-color:#f1f4f7;
+  font-size: 16px;
 }
 ul {
   list-style-type: disc;
@@ -93,3 +92,4 @@ b, strong {
 /* ZOOM MAP */
 
 #mapid { height: 300px; }
+  
