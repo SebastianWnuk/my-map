@@ -1,0 +1,164 @@
+<html lang="de">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Faqs</title>
+		<link rel="stylesheet" type="text/css" href="faqs.css">
+		<link rel ="stylesheet" href="leaflet/leaflet.css">
+		<script src="leaflet/leaflet.js">
+		</script>
+</head>
+
+<body>
+<div  class="header-line" >
+		<div class="flex-container-header"> 
+			
+
+			<div class="flex-item-header" >
+				<p id="header">
+					Welcome to Adventure campus of Kaiserslautern university!
+				</p>
+			</div>
+						
+			<div id="flag">
+				<a href="InfopointDE.html" >
+				<img src="DE.jpg" style="width: 30px; height: 22px;">
+				</a>
+			</div>
+	</div>
+</div>
+<div class="flex-cotainer">
+	<div id="a">
+		<p>
+			This game was developed by students of the "Agile software development" course in the "Information Management" program in the Corona-year 2021. <br>
+	It gives us a little bit of "Campus feeling", allows us to hold online events, as well as to meet friends again - no matter where they are now.
+		</p>
+	</div>
+</div>
+
+<div class="body-background-color">
+<div id="header-body">
+<h1>WorkAdventure manual:</h1>
+</div>
+
+
+<div class="flex-cotainer-body">
+
+<div class="flex-item-body">
+	<h2>Functions</h2>
+<ul>
+	<li style="margin-bottom:0.3em;">
+		<b>Zoom in/out:</b> 
+		<span class="key">Strg</span> 
+		<span class="key">+</span> , 
+		<span class="key">Strg</span> 
+		<span class="key">-</span>
+	</li>
+	<li style="margin-bottom:0.3em;">
+		<b>Move:</b> Arrow keys:
+		<span class="key">→</span> , 
+		<span class="key">←</span> , 
+		<span class="key">↑</span> , 
+		<span class="key">↓</span> or. 
+		<span class="key">W</span> , 
+		<span class="key">A</span> , 
+		<span class="key">S</span> , 
+		<span class="key">D</span> 
+	</li>
+	<li><b>Run:</b> 
+		<span class="key">⇧ Shift</span> + arrow or</span>
+		<span class="key">⇧ Shift</span> +  
+		<span class="key">W</span> , 
+		<span class="key">A</span> , 
+		<span class="key">S</span> , 
+		<span class="key">D</span><br> 
+		Notice: Conversations will be interrupted while running, 
+		not while walking - as long as persons are together within one circle.
+	</li>
+	<li>
+		<b>Communicate:</b> Automatically when meeting persons 
+		(a circle is drawn around the group) and in conference tools.
+	</li>
+	<li>
+		<b>Chillout areas/lecture rooms:</b> No communication possible.
+	</li>
+	<li>
+		<b>Change floor:</b> 
+		Use staircases to move between floors.
+	</li>
+	<li>
+		<b>Walls:</b>
+		The avatar can not go through walls, walk around them.
+	</li>
+	<li class = "img">
+		<p>
+		<b>Mute:</b> 
+		<img src="CameraOFF.png" alt="Mute-Symbol" style="float:left; padding-right:1em;"> 
+		The mute symbol marks a place to have a rest, there are no communication possibilities.
+		</p> 
+	</li>
+	<li class = "img">
+		<p>
+		<b>Jitsi:</b> 
+		<img src="CameraON.png" alt="Kamera-Symbol" style="float:left; padding-right:1em;"> 
+		The camera symbol shows Jitsi group rooms. You can get in contact with more than four persons here.
+		</p>
+	</li>
+	<li class = "img">
+		<p>
+		<b>Menu:</b>
+		<img src="Menu.png" alt="Hamurger-Menü" style="float:left; padding-right:1em;"> 
+		In the menu on the upper left several settings can be reached, e.g. you can change your name and avatar here.
+		</p>
+	</li>
+	<li class = "img">
+		<p>
+		<b>Infopoint:</b>
+		<img id = "info" src="Info.png" style="float:left; padding-right:1em;"> 
+		Here you can get university information.
+		</p>
+	</li>
+</ul>
+</div>
+
+
+<div class="flex-item-body">
+	<div class="flex-item-body">
+	<h2>Map</h2>
+	
+			<div id = "mapid" style = "background: rgba(255, 254, 254, 0.87); margin-bottom: 2rem;">
+			</div>
+	
+	<!-- comment
+	<img src="Map.PNG" style="height:300px; width: 300px;"> 
+	-->
+
+	
+		<h2>Rules</h2>
+		<ol>
+            <li>No insults</li>
+            <li>Don't bother anyone if they refuse communication</li>
+            <li>Make sure you can be seen well (If you want to be seen)</li>
+            <li>Make sure you can be heard well (If you want to be heard)</li>
+	</ol>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<script>
+	var mymap = L.map('mapid').setView([0, 0], 2);
+	L.tileLayer('maps/{z}/{x}/{y}.png', {
+		minZoom: 1,
+		maxZoom: 4,
+		continuousWorld: false,
+		noWrap: true,
+	}).addTo(mymap);
+	</script>
+
+</body>
+</html>
