@@ -3,7 +3,15 @@ console.log("Hallo");
 WA.sendChatMessage('Hallo und Herzlich Willkommen auf unserem Campus :)  ', 'Easter-Eggs-Entwickler');
 
 WA.onEnterZone('myZone', () => {
-    WA.sendChatMessage("In die Zone gelaufen", 'Mr Robot');
+    currentPopup =  WA.openPopup("popupRectangle","You can purchase virtual office in WorkAdventure",[
+        {
+            label: "See the pricing",
+            className: "popUpElement",
+            callback: (popup) => {
+                // Close the popup when the "Close" button is pressed.
+                popup.close();
+            }
+        }]);
     
 })
 
