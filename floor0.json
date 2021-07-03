@@ -231,6 +231,12 @@
                  "y":1937.33333333333
                 }],
          "opacity":1,
+         "properties":[
+                {
+                 "name":"rectangle",
+                 "type":"object",
+                 "value":0
+                }],
          "type":"objectgroup",
          "visible":true,
          "x":0,
