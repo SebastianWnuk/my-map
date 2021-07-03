@@ -8,12 +8,12 @@ WA.onLeaveZone('myZone', () => {
 })
 
 WA.onEnterZone('myZone', () => {
-    WA.disablePlayerControls();
+    
     WA.openPopup("popupRectangle", 'This is an imporant message!', [{
         label: "Got it!",
         className: "primary",
         callback: (popup) => {
-            WA.restorePlayerControls();
+            
             popup.close();
         }
     }]);
