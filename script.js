@@ -2,26 +2,26 @@
 console.log("Hallo");
 WA.sendChatMessage('Hallo und Herzlich Willkommen auf unserem Campus :)  ', 'Easter-Eggs-Entwickler');
 
-WA.onEnterZone('myZone', () => {
-    WA.sendChatMessage("In die Zone gelaufen", 'Mr Robot');
+// WA.onEnterZone('myZone', () => {
+//     WA.sendChatMessage("In die Zone gelaufen", 'Mr Robot');
     
-})
+// })
 
-WA.onLeaveZone('myZone', () => {
-    WA.sendChatMessage("Aus der Zone gelaufen", 'Mr Robot');
-})
+// WA.onLeaveZone('myZone', () => {
+//     WA.sendChatMessage("Aus der Zone gelaufen", 'Mr Robot');
+// })
 
-let currentPopup;
+let helloWorldPopup;
 
-currentPopup= WA.onEnterZone('zoneOfficeName', () => {
-   WA.openPopup("popUpOffice","You can purchase virtual office in WorkAdventure",[
-        {
-            label: "See the pricing",
-            className: "primary",
-            callback: (popup)=> {
-               popup.close();
-            }
-        }]);
-})
+helloWorldPopup = WA.onEnterZone('myZone', () => {
+    WA.openPopup("popupRectangle", 'This is an imporant message!', [{
+        label: "Got it!",
+        className: "primary",
+        callback: (popup) => {
+            WA.restorePlayerControls();
+            popup.close();
+        }
+    }]);
+});
 
 console.log("Hallo");
