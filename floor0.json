@@ -193,7 +193,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"rectangle",
+                 "name":"popupRectangle",
                  "type":"object",
                  "value":4
                 }],
