@@ -182,13 +182,7 @@
                 {
                  "height":37.3333333333333,
                  "id":4,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"popupRectangle",
-                         "type":"string",
-                         "value":"popupRectangle"
-                        }],
+                 "name":"popupRectangle",
                  "rotation":0,
                  "type":"",
                  "visible":true,
