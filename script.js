@@ -11,16 +11,13 @@ WA.onLeaveZone('myZone', () => {
     WA.sendChatMessage("Aus der Zone gelaufen", 'Mr Robot');
 })
 
-var urlPricing = "https://workadventu.re/pricing";
-var urlSchoolOffer = "https://workadventu.re/school-offer";
-var urlEvent = "https://workadventu.re/events";
-var currentPopup = undefined;
+let currentPopup;
 
-WA.onEnterZone(zoneOfficeName, () => {
-   currentPopup =  WA.openPopup("popUpOffice","You can purchase virtual office in WorkAdventure",[
+currentPopup= WA.onEnterZone('zoneOfficeName', () => {
+   WA.openPopup("popUpOffice","You can purchase virtual office in WorkAdventure",[
         {
             label: "See the pricing",
-            className: "popUpElement",
+            className: "primary",
             callback: (popup)=> {
                popup.close();
             }
