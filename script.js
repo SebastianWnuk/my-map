@@ -3,9 +3,7 @@ console.log("Hallo");
 WA.sendChatMessage('Hallo und Herzlich Willkommen auf unserem Campus :)  ', 'Easter-Eggs-Entwickler');
 
 WA.onEnterZone('myZone', () => {
-    WA.onEnterZone('myZone', () => {
-        WA.sendChatMessage("Hello!", 'Mr Robot');
-    });
+    
     WA.openPopup('popupRectangle', 'This is an imporant message!', [{
         label: "Got it!",
         className: "primary",
