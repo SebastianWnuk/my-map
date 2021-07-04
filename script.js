@@ -6,7 +6,7 @@ WA.onEnterZone('myZone', () => {
     WA.onEnterZone('myZone', () => {
         WA.sendChatMessage("Hello!", 'Mr Robot');
     });
-    WA.openPopup("popupRectangle", 'This is an imporant message!', [{
+    WA.openPopup('popupRectangle', 'This is an imporant message!', [{
         label: "Got it!",
         className: "primary",
         callback: (popup) => {
