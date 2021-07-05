@@ -178,24 +178,7 @@
          "draworder":"topdown",
          "id":19,
          "name":"Popup",
-         "objects":[
-                {
-                 "height":37.3333333333333,
-                 "id":4,
-                 "name":"popupRectangle",
-                 "properties":[
-                        {
-                         "name":"popupRectangle",
-                         "type":"string",
-                         "value":"popupRectangle"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":93.3333333333334,
-                 "x":362.666666666667,
-                 "y":1833.33333333333
-                }],
+         "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -264,7 +247,24 @@
          "draworder":"topdown",
          "id":3,
          "name":"floorLayer",
-         "objects":[],
+         "objects":[
+                {
+                 "height":210.667,
+                 "id":7,
+                 "name":"popupRectangle",
+                 "properties":[
+                        {
+                         "name":"popupRectangle",
+                         "type":"string",
+                         "value":"popupRectangle"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":228,
+                 "x":154.517909921636,
+                 "y":1700.40754503918
+                }],
          "offsetx":-7.18457658830232,
          "offsety":3.5922882941511,
          "opacity":1,
@@ -286,7 +286,7 @@
          "y":0
         }],
  "nextlayerid":23,
- "nextobjectid":7,
+ "nextobjectid":8,
  "orientation":"orthogonal",
  "properties":[
         {
