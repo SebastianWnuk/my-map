@@ -15,6 +15,18 @@ WA.onEnterZone('myZone', () => {
 });
 
 
+WA.onEnterZone('myZone', () => {
+WA.openPopup('HanSolo', 'Das ist eine Han Solo Statue!', [{
+    label: "Got it!",
+    className: "primary",
+    callback: (popup) => {
+        
+        popup.close();
+    }
+}]);
+});
+
+
 WA.onLeaveZone('myZone', () => {
     WA.sendChatMessage("Aus der Zone gelaufen", 'Mr Robot');
 })
