@@ -15,7 +15,7 @@ WA.onEnterZone('myZone', () => {
 });
 
 
-WA.onEnterZone('myZone', () => {
+WA.onEnterZone('HanSolozone', () => {
 WA.openPopup('HanSolo', 'Das ist eine Han Solo Statue!', [{
     label: "Got it!",
     className: "primary",
