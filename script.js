@@ -6,7 +6,7 @@ WA.onInit().then(() => {
     console.log('Player name: ', WA.player.name);
 })
 
-WA.player.onPlayerMove(callback: HasPlayerMovedEventCallback): void;
+//WA.player.onPlayerMove(callback: HasPlayerMovedEventCallback): void;
 
 WA.player.onPlayerMove(console.log);
 
