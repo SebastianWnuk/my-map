@@ -2,6 +2,10 @@
 console.log("Hallo");
 WA.sendChatMessage('Hallo und Herzlich Willkommen auf unserem Campus :)  ', 'Easter-Eggs-Entwickler');
 
+WA.onInit().then(() => {
+    console.log('Player name: ', WA.player.name);
+})
+
 WA.onEnterZone('myZone', () => {
     
     WA.openPopup('popupRectangle', 'This is an imporant message!', [{
