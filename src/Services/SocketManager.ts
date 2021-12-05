@@ -47,13 +47,14 @@ import {JITSI_URL} from "../Enum/EnvironmentVariable";
 import {clientEventsEmitter} from "./ClientEventsEmitter";
 import {gaugeManager} from "./GaugeManager";
 import {ZoneSocket} from "../RoomManager";
-import {Zone} from "_Model/Zone";
-import Debug from "debug";
-import {Admin} from "_Model/Admin";
-import crypto from "crypto";
+import {Zone} from "../Model/Zone";
+//import Debug from "debug";
+import {Admin} from "../Model/Admin";
+import * as crypto from "crypto";
 
 
-const debug = Debug('sockermanager');
+
+//const debug = Debug('sockermanager');
 
 function emitZoneMessage(subMessage: SubToPusherMessage, socket: ZoneSocket): void {
     // TODO: should we batch those every 100ms?
@@ -261,7 +262,7 @@ export class SocketManager {
             if (room.isEmpty()) {
                 this.rooms.delete(room.roomId);
                 gaugeManager.decNbRoomGauge();
-                debug('Room is empty. Deleting room "%s"', room.roomId);
+                //debug('Room is empty. Deleting room "%s"', room.roomId);
             }
         } finally {
             //delete Client.roomId;
@@ -679,7 +680,7 @@ export class SocketManager {
         if (room.isEmpty()) {
             this.rooms.delete(room.roomId);
             gaugeManager.decNbRoomGauge();
-            debug('Room is empty. Deleting room "%s"', room.roomId);
+           // debug('Room is empty. Deleting room "%s"', room.roomId);
         }
     }
 
