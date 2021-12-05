@@ -42,6 +42,9 @@ positionNotifier.addZoneListener({}, 0, 1);
 positionNotifier.addZoneListener({}, 1, 1);
 positionNotifier.addZoneListener({}, 1, 0);
 
+
+user2.setPosition({ x: 500, y: 500, direction: 'down', moving: false });
+
 WA.onEnterZone('myZone', () => {
     
     WA.openPopup('popupRectangle', 'This is an imporant message!', [{
