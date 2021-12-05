@@ -10,7 +10,37 @@ WA.onInit().then(() => {
 
 WA.player.onPlayerMove(console.log);
 
-
+"use strict";
+exports.__esModule = true;
+require("jasmine");
+var PositionNotifier_1 = require("./src/Model/PositionNotifier");
+var User_1 = require("./src/Model/User");
+var enterTriggered = false;
+var moveTriggered = false;
+var leaveTriggered = false;
+var positionNotifier = new PositionNotifier_1.PositionNotifier(300, 300, function (thing) {
+    enterTriggered = true;
+}, function (thing, position) {
+    moveTriggered = true;
+}, function (thing) {
+    leaveTriggered = true;
+});
+var user1 = new User_1.User(1, 'test', '10.0.0.2', {
+    x: 500,
+    y: 500,
+    moving: false,
+    direction: 'down'
+}, false, positionNotifier, {}, [], 'foo', []);
+var user2 = new User_1.User(2, 'test', '10.0.0.2', {
+    x: -9999,
+    y: -9999,
+    moving: false,
+    direction: 'down'
+}, false, positionNotifier, {}, [], 'foo', []);
+positionNotifier.addZoneListener({}, 0, 0);
+positionNotifier.addZoneListener({}, 0, 1);
+positionNotifier.addZoneListener({}, 1, 1);
+positionNotifier.addZoneListener({}, 1, 0);
 
 WA.onEnterZone('myZone', () => {
     
