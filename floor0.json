@@ -53,6 +53,11 @@
                  "value":"doorOpened"
                 }, 
                 {
+                 "name":"persist",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
                  "name":"zone",
                  "type":"string",
                  "value":"door_open_zone1"
@@ -89,6 +94,11 @@
                  "name":"doorVariable",
                  "type":"string",
                  "value":"doorOpened"
+                }, 
+                {
+                 "name":"persist",
+                 "type":"bool",
+                 "value":true
                 }, 
                 {
                  "name":"zone",
