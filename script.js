@@ -5,7 +5,7 @@ import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 bootstrapExtra();
 
 console.log("Hallo");
-WA.chat.sendChatMessage('Hallo und Herzlich Willkommen auf unserem Campus :)  ', 'Easter-Eggs-Entwickler');
+WA.chat.sendChatMessage('Servus Leute!  ', 'Easter-Eggs-Entwickler');
 
 WA.onInit().then(() => {
     console.log('Player name: ', WA.player.name);
