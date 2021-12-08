@@ -53,11 +53,6 @@
                  "value":"doorOpened"
                 }, 
                 {
-                 "name":"persist",
-                 "type":"bool",
-                 "value":true
-                }, 
-                {
                  "name":"zone",
                  "type":"string",
                  "value":"door_open_zone1"
@@ -94,11 +89,6 @@
                  "name":"doorVariable",
                  "type":"string",
                  "value":"doorOpened"
-                }, 
-                {
-                 "name":"persist",
-                 "type":"bool",
-                 "value":true
                 }, 
                 {
                  "name":"zone",
@@ -405,6 +395,32 @@
          "offsetx":-7.18457658830232,
          "offsety":3.5922882941511,
          "opacity":1,
+         "properties":[
+                {
+                 "name":"closeLayer",
+                 "type":"string",
+                 "value":"closed_door"
+                }, 
+                {
+                 "name":"default",
+                 "type":"bool",
+                 "value":false
+                }, 
+                {
+                 "name":"door",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"openLayer",
+                 "type":"string",
+                 "value":"opened_door"
+                }, 
+                {
+                 "name":"persist",
+                 "type":"bool",
+                 "value":true
+                }],
          "type":"objectgroup",
          "visible":true,
          "x":0,
