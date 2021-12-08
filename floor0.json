@@ -55,7 +55,7 @@
                 {
                  "name":"zone",
                  "type":"string",
-                 "value":"door_open_zone2"
+                 "value":"door_open_zoneA"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -93,7 +93,7 @@
                 {
                  "name":"zone",
                  "type":"string",
-                 "value":"door_open_zone1"
+                 "value":"door_open_zoneB"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -355,8 +355,8 @@
                  "type":"variable",
                  "visible":true,
                  "width":0,
-                 "x":609.851243254969,
-                 "y":1280.40771170585
+                 "x":639.351243254969,
+                 "y":1275.40771170585
                 }, 
                 {
                  "height":37.3333333333333,
