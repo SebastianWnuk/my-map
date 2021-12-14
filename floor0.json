@@ -45,12 +45,12 @@
                 {
                  "name":"autoOpen",
                  "type":"bool",
-                 "value":true
+                 "value":false
                 }, 
                 {
                  "name":"doorVariable",
                  "type":"string",
-                 "value":"doorOpened"
+                 "value":"door"
                 }, 
                 {
                  "name":"zone",
@@ -88,7 +88,7 @@
                 {
                  "name":"doorVariable",
                  "type":"string",
-                 "value":"doorOpened"
+                 "value":"door"
                 }, 
                 {
                  "name":"zone",
@@ -323,7 +323,7 @@
                 {
                  "height":0,
                  "id":14,
-                 "name":"my_door",
+                 "name":"door",
                  "point":true,
                  "properties":[
                         {
@@ -357,28 +357,6 @@
                  "width":0,
                  "x":639.351243254969,
                  "y":1275.40771170585
-                }, 
-                {
-                 "height":37.3333333333333,
-                 "id":18,
-                 "name":"door_open_zone1",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":94.6666666666666,
-                 "x":647.184576588302,
-                 "y":1369.74104503918
-                }, 
-                {
-                 "height":24,
-                 "id":19,
-                 "name":"door_open_zone2",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":94.6666666666666,
-                 "x":647.184576588302,
-                 "y":1280.40771170585
                 }],
          "offsetx":-7.18457658830232,
          "offsety":3.5922882941511,
