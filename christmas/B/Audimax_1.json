@@ -593,7 +593,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"script.js"
+         "value":"audimax.js"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.5.0",
