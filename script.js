@@ -22,7 +22,7 @@ WA.onEnterZone('HanSolozone', () => {
     //alien Zone
 
     WA.onEnterZone('alienZone', () => {
-        WA.openPopup('alien', 'Der Code zur Tür lautet: 12345! ', [{
+        WA.openPopup('alienPopup', 'Der Code zur Tür lautet: 12345! ', [{
             label: "Got it!",
             className: "primary",
             callback: (popup) => {
