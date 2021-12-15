@@ -530,6 +530,12 @@
          "id":49,
          "name":"alienZone",
          "opacity":0,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"alienZone"
+                }],
          "type":"tilelayer",
          "visible":false,
          "width":26,

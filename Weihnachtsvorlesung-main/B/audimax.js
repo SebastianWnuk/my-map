@@ -1,14 +1,2 @@
-WA.onEnterZone('HanSolozone', () => {
-    WA.openPopup('HanSolo', 'Han Solo ist eine fiktive Figur aus der Star Wars- Reihe von George Lucas . Han Solo ist ein rücksichtsloser Schmuggler mit einem sarkastischen Witz und wird von  Harrison Ford gespielt.', [{
-        label: "Got it!",
-        className: "primary",
-        callback: (popup) => {
-            
-            popup.close();
-        }
-    }]);
-    });
-
-    WA.onLeaveZone('HanSolozone', () => {
-        popup.close();
-    })
+(()=>{"use strict";console.log("Hello world!"),console.log("Hallo2"),WA.room.onEnterLayer("alienZone").subscribe((()=>{WA.ui.openPopup("alienPopup","Han Solo ist eine fiktive Figur aus der Star Wars- Reihe von George Lucas . Han Solo ist ein rücksichtsloser Schmuggler mit einem sarkastischen Witz und wird von  Harrison Ford gespielt.",[{label:"Close",className:"primary",callback:e=>{e.close()}}])})),WA.room.onLeaveLayer("alienZone").subscribe((()=>{close()})),WA.room.onEnterLayer("HanSolozone").subscribe((()=>{WA.ui.openPopup("HanSolo","Han Solo ist eine fiktive Figur aus der Star Wars- Reihe von George Lucas . Han Solo ist ein rücksichtsloser Schmuggler mit einem sarkastischen Witz und wird von  Harrison Ford gespielt.",[{label:"Close",className:"primary",callback:e=>{e.close()}}])})),WA.room.onLeaveLayer("HanSoloZone").subscribe((()=>{close()}))})();
+//# sourceMappingURL=script.js.map
