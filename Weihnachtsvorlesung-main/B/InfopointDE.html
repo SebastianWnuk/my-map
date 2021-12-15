@@ -1,0 +1,166 @@
+<html lang="de">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Faqs</title>
+		<link rel="stylesheet" type="text/css" href="faqs.css">
+		<link rel ="stylesheet" href="leaflet/leaflet.css">
+		<script src="leaflet/leaflet.js">
+		</script>
+</head>
+
+<body>
+<div  class="header-line" >
+		<div class="flex-container-header"> 
+			
+
+			<div class="flex-item-header" >
+				<p id="header">
+					Willkommen im Campus Adventure der Hochschule Kaiserslautern!
+				</p>
+			</div>
+						
+			<div id="flag">
+				<a href="InfopointEN.html" >
+				<img src="Eng.jpg" style="width: 30px; height: 22px;">
+				</a>
+			</div>
+	</div>
+</div>
+<div class="flex-cotainer">
+	<div id="a">
+		<p>
+			Dieses MMPORG-Spiel wurde von den Studierenden im Kurs "Agile Software Entwicklung" im Studiengang "Information Management" <br>
+			des Fachbereichs BW im Corona-Jahr 2021 entworfen, um uns allen ein bisschen "Campus Feeling" zurückzugeben, 
+			Online-Events durchzuführen und <br>
+			Freunde wieder zu treffen, egal wo sie sich gerade aufhalten. <br>
+		</p>
+	</div>
+</div>
+
+<div class="body-background-color">
+<div id="header-body">
+<h1>Informationen über die Bedienung des WorkAdventure:</h1>
+</div>
+
+
+<div class="flex-cotainer-body">
+
+<div class="flex-item-body">
+	<h2>Funktionen</h2>
+<ul>
+	<li style="margin-bottom:0.3em;">
+		<b>Rein-/Rauszoomen</b> 
+		<span class="key">Strg</span> 
+		<span class="key">+</span> , 
+		<span class="key">Strg</span> 
+		<span class="key">-</span>
+	</li>
+	<li style="margin-bottom:0.3em;">
+		<b>Bewegen:</b> Pfeiltasten:
+		<span class="key">→</span> , 
+		<span class="key">←</span> , 
+		<span class="key">↑</span> , 
+		<span class="key">↓</span> bzw. 
+		<span class="key">W</span> , 
+		<span class="key">A</span> , 
+		<span class="key">S</span> , 
+		<span class="key">D</span> 
+	</li>
+	<li><b>Rennen:</b> 
+		<span class="key">⇧ Shift</span> + arrow bzw.</span>
+		<span class="key">⇧ Shift</span> +  
+		<span class="key">W</span> , 
+		<span class="key">A</span> , 
+		<span class="key">S</span> , 
+		<span class="key">D</span><br> 
+		Beachte: Konversationen werden beim Rennen unterbrochen. Beim Laufen bleibt die Verbindung so lange bestehen, <br>
+        bis sich eine Person  außerhalb des Kommunikationsradius (Kreis) begibt.
+	</li>
+	<li>
+		<b>Kommunikation:</b> Startet automatisch, sobald man in den Kommunikationsradius gerät.
+	</li>
+	<li>
+		<b>Chillout areas/ Ruheräume:</b> Keine Kommunikation möglich.
+	</li>
+	<li>
+		<b>Raum wechseln:</b> 
+		Nutze Treppen und Türen, um in andere Räume oder Gebäude zu gelangen.
+	</li>
+	<li>
+		<b>Wände:</b>
+		Die Avatare können nicht über alle Objekte laufen. Wände grenzen die Räume und den Bewegungsradius ein.
+	</li>
+	<li class = "img">
+		<p>
+		<b>Stummschaltung:</b> 
+		<img src="CameraOFF.png" alt="Mute-Symbol" style="float:left; padding-right:1em;"> 
+		Das Stummschalten-Symbol markiert Ruhe oder Pausenräume. Hier ist keine Kommunikation möglich.
+		</p> 
+	</li>
+	<li class = "img">
+		<p>
+		<b>Jitsi:</b> 
+		<img src="CameraON.png" alt="Kamera-Symbol" style="float:left; padding-right:1em;"> 
+		Das Kamera-Symbol markiert Bereiche, in denen es möglich ist mit mehreren Spielern über Jitsi zu kommunizieren.
+		</p>
+	</li>
+	<li class = "img">
+		<p>
+		<b>Menü:</b>
+		<img src="Menu.png" alt="Hamurger-Menü" style="float:left; padding-right:1em;"> 
+		Beim Klicken des Menü-Buttons kannst du deine Einstellungen tätigen und auch deinen Avatarnamen ändern.
+		</p>
+	</li>
+	<li class = "img">
+		<p>
+		<b>Infopunkt:</b>
+		<img id = "info" src="Info.png" style="float:left; padding-right:1em;"> 
+		Hier bekommst du Informationen rund um die Hochschule.
+		</p>
+	</li>
+</ul>
+</div>
+
+<div class="flex-item-body">
+	<div class="flex-item-body">
+	<h2>Map</h2>
+	
+			<div id = "mapid" style = "background: rgba(255, 254, 254, 0.87); margin-bottom: 2rem;">
+			</div>
+	
+	<!-- comment
+	<img src="Map.PNG" style="height:300px; width: 300px;"> 
+	-->
+
+	
+		<h2>Spielregeln</h2>
+		<ol>
+		  <li>Beleidige keine anderen Mitspieler und Verhalte dich angemessen!</li>
+		  <li>Wenn jemand die Kommunikation ablehnt oder beendet, dann akzeptiere es.</li>
+		  <li>Wenn du an einer Gruppenkonferenz teilnimmst, verhalte dich angemessen!</li>
+		  <li>Stelle sicher, dass man dich sieht! (Vorausgesetzt du möchtest es)</li>
+		  <li>Stelle sicher, dass man dich hört! (Vorausgesetzt du möchtest es)</li>
+		  <li>Fotos von anderen in einer Konferenz zu machen ist verboten!</li>
+	</ol>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<script>
+	var mymap = L.map('mapid').setView([0, 0], 2);
+	L.tileLayer('maps/{z}/{x}/{y}.png', {
+		minZoom: 1,
+		maxZoom: 4,
+		continuousWorld: false,
+		noWrap: true,
+	}).addTo(mymap);
+	</script>
+
+</body>
+</html>
