@@ -3,11 +3,11 @@
 console.log("Typescript tests!")
 //# sourceMappingURL=script.js.map
 
-import * as fs from 'fs';
+// import * as fs from 'fs';
 
-//player movement
-WA.player.onPlayerMove();
-let text = "Something you want to write in";
+// //player movement
+// WA.player.onPlayerMove();
+// let text = "Something you want to write in";
 
-fs.writeFileSync("document.txt", text);
-fs.writeFileSync("document.txt", WA.player.onPlayerMove());
+// fs.writeFileSync("document.txt", text);
+// fs.writeFileSync("document.txt", WA.player.onPlayerMove());
