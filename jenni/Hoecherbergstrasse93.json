@@ -29,7 +29,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":".\/happyBirthday.mp3"
+                 "value":"https:\/\/opengameart.org\/sites\/default\/files\/8_bit_peractorum_lofi_0.mp3"
                 }, 
                 {
                  "name":"silent",
