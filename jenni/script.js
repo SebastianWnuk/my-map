@@ -41,7 +41,7 @@ WA.room.onLeaveLayer("Hinweis2").subscribe(() => {
 });
 
 //Hinweis 3 
-let helloWorldPopup2;
+let helloWorldPopup3;
 
 // Open the popup when we enter a given zone
 helloWorldPopup3 = WA.room.onEnterLayer("Hinweis3").subscribe(() => {
