@@ -128,7 +128,7 @@ let helloWorldPopup7;
 
 // Open the popup when we enter a given zone
 helloWorldPopup7 = WA.room.onEnterLayer("Hinweis7").subscribe(() => {
-    WA.ui.openPopup("Hinweis7", 'Hinweis6: MIDI', [{
+    WA.ui.openPopup("Hinweis7", 'Hinweis7: MIDI', [{
         label: "Close",
         className: "primary",
         callback: (popup) => {
