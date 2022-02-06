@@ -1,4 +1,4 @@
-WA.chat.sendChatMessage('Hallo an alle, die es bis dahin geschafft haben! Jetzt geht es auf die Suche...du musst eine Zeichenkombination finden! Es gibt 8 verschiedene Buchstaben, die gefunden werden müssen. ', 'Basti');
+WA.chat.sendChatMessage('Hallo an alle, die es bis dahin geschafft haben! Jetzt geht es auf die Suche...du musst Zeichenkombinationen finden! Es gibt 7 Hinweise in der Map, die gefunden werden müssen. Finde die Hinweise und setze sie in der richtigen Reihenfolge zusammen. Du kannst diese Nachricht immer über das Mailsymbol im oberen Bildschirmrand aufrufen. Deine Gäste können mit dem Link auch die Map betreten und dir helfen, wenn sie möchten! Wenn du die Hinweise gefunden hast, suche auf dem Pc nach einem Ordner "Geschenk". Dieser ist allerdings verschlüssel. Öffne dein Geschenk, indem du die Hinweise zusammensetzt. ACHTUNG: SORTIERE DIE HINWEISE NACH DEM DURCHSCHNITTSALTER DER PAARE ;) DAS IST DEIN SCHLÜSSEL!  ', 'Basti');
 
 //Hinweis 1 
 let helloWorldPopup;
